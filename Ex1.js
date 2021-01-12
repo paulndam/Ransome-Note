@@ -27,7 +27,7 @@ function canSpell(magazine, word) {
     return true;
   }
   
-  console.log(canSpell(["a", "b", "c", "d", "e", "f", "g", "h"], "bed"));
-  console.log(canSpell(["a", "b", "c", "d", "e", "f", "g", "h"], "cat"));
-  console.log(canSpell(["a", "b", "c", "d", "e", "f", "g", "h"], "had"));
+  console.log(canSpell(["a", "b", "c", "d", "e", "f", "g", "h"], "bed"));//true
+  console.log(canSpell(["a", "b", "c", "d", "e", "f", "g", "h"], "cat"));//false
+  console.log(canSpell(["a", "b", "c", "d", "e", "f", "g", "h"], "had"));//true
   
